@@ -1,0 +1,77 @@
+
+body{
+        font-family:'Poppins', Helvetica, sans-serif;
+
+}
+#main-container{
+    background-color: goldenrod;
+    color: #232323;
+    
+}
+a{
+    text-decoration: none;
+    
+}
+
+a:visited{
+    color: black;
+}
+
+#logo{
+    width: 50px;    
+    height: 50px;
+}
+
+.photo{
+    background-image: url("./circularPhoto.png");
+    background-position:right;
+    background-repeat: no-repeat;
+    background-size: contain;
+
+
+}
+#name
+{
+    font-family:'Poppins', Helvetica, sans-serif;
+    font-weight: bolder;
+    letter-spacing: 0.3rem;
+}
+#profession{
+    font-weight:100;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: 0.2rem;
+
+}
+
+.skill-btn{
+    background: linear-gradient(135deg, #007BFF, #00d4ff);
+    padding: 25px;
+    border-radius: 12px;
+    color: white;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    cursor: pointer;
+    border: 0px solid white;
+
+    
+
+}
+
+
+.skill-btn:hover{
+      outline: 2px solid #00ffff; /* Cyan outline */
+  outline-offset: 2px;
+  box-shadow: 0 0 10px #00ffff, 0 0 20px #00ffff;
+  transition: all 0.3s ease-in-out;
+}
+
+
+.logo-footer{
+    width: 40px;
+}
+
+.disclamer{
+    font-size: 0.7rem;
+    font-weight: bold;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
