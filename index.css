@@ -67,11 +67,18 @@ a:visited{
 
 
 .logo-footer{
-    width: 40px;
+    
 }
 
 .disclamer{
     font-size: 0.7rem;
     font-weight: bold;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+.footer{
+    background-image: url("/ashish\ logo.png");
+    background-position: left;
+    background-size:contain;
+    background-repeat: no-repeat;
 }
