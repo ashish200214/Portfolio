@@ -76,9 +76,6 @@ a:visited{
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
 }
 
-.footer{
-    background-image: url("/ashish\ logo.png");
-    background-position: left;
-    background-size:contain;
-    background-repeat: no-repeat;
+.left-logo>img{
+    width: 50%;
 }
